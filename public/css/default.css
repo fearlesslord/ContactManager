@@ -1,0 +1,263 @@
+body {
+    background: silver;
+    border-radius: 10px ;
+}
+
+#header {
+    padding: 20px;
+    background: #4D7198;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.headTitle {
+    color: white;
+}
+
+#header a {
+    color: white;
+}
+
+.error {
+    color: #ff0015;
+    margin-left: 0px;
+}
+
+.flash {
+    color: #DD1162;
+    margin: 0 15px 10px;
+}
+
+h1 {
+    font-family: gabriolaa;
+    color: #5a96ff;
+    text-align: center;
+}
+
+h2, h4 {
+    margin-left: 100px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+.loginError{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.paginatioMenu {
+    margin: 0 0 15px 2px;
+    font-size: 18px;
+}
+
+.paginatioMenu a, strong{
+    text-decoration: none;
+    border: 1px solid #8DBDD8;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.paginatioMenu strong{
+    background-color: #8DBDD8;
+}
+
+#content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px ;
+}
+
+#footer {
+    margin-top: 10px;
+    padding: 20px;
+    background: #4D7198;
+    border-radius: 10px ;
+}
+
+fieldset {
+    border: 0;
+}
+
+#Add {
+    float: left;
+}
+
+.subject {
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 9px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.emais
+{
+}
+
+.text_message {
+    width: 40%;
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 9px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cheched_emails {
+    width: 40%;
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 9px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* contacts tables style */
+
+table.tablesorter {
+    font-family:arial;
+    /*background-color: #CDCDCD;*/
+    margin:10px 0pt 15px;
+    font-size: 8pt;
+    width: 80%;
+    text-align: left;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 8pt;
+    padding: 4px;
+    /*text-decoration: underline;*/
+}
+
+/* TODO   */
+/*table.tablesorter thead tr th a {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 8pt;
+    padding: 4px;
+}*/
+
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
+#select_all_th
+{
+    width: 70px !important;
+}
+
+/* contacts tables style  end*/
+
+table.addContact {
+    color: #664040;
+    margin-left: 100px
+}
+
+table.addContact td input {
+    /*margin-right: 1px;*/
+    padding-right: 1px;
+
+}
+
+table.addContact tbody input {
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.addContact tbody .phone {
+width: 66%;
+}
+
+table.editContact {
+    color: #664040;
+    margin-left: 100px
+}
+
+table.editContact tbody input {
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.editContact tbody .phone {
+    width: 66%;
+}
+
+table.loginTable tbody input {
+    border: 1px solid #8f9bb3;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.loginTable {
+    margin-left: 100px;
+    color: #664040;
+}
+
+.login {
+    color: #664040;
+}
+
+
+/*
+form {
+    font: 100% verdana,arial,sans-serif;
+}
+
+form label {
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 9px 0 0;
+    text-align: right;
+}
+
+form input, form select {
+    width: auto;
+    margin: 5px 0 0 10px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background: silver;
+}
+
+
+form br {clear: left;}
+*/
